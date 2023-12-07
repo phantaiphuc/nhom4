@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+body{
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+.login{
+    width: 360px;
+    height: 800px;
+    border: 1px solid black;
+}
+.login h1{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+
+.input-box input{
+    width: 312px;
+    height: 48px;
+    border: 1px solid rgba(0, 0, 0, .4);
+    border-radius: 10px;
+    padding: 5px; 
+    margin-left: 24px; 
+}
+.input-box1{
+    position: relative;   
+}
+.input-box1 input{
+    margin-top: 30px;
+    width: 312px;
+    height: 48px;
+    border: 1px solid rgba(0, 0, 0, .4);
+    border-radius: 10px;
+    padding: 5px; 
+    margin-left: 24px;   
+}
+.input-box1 img{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    right: 30px;
+    top: 54%
+}
+.forgot {
+    text-decoration: none;
+    margin-top: 15px;
+    text-align: center;   
+}
+.forgot a{
+    text-decoration: none;
+}
+.forgot a:hover{
+    text-decoration: underline;
+}
+.login-button button{
+    width: 312px;
+    height: 48px;
+    background-color: #0E64D2;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 24px;
+    margin-top: 28px;
+    color: white;
+    font-size: 14px;
+    font-weight: 590;
+    line-height: 21px;
+}
+.login-notification{
+ margin-top: 20px;
+ text-align: center;
+}
+.login-notification a:hover{
+    text-decoration: underline;
+}
+.login-or{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+
+}
+.line1{
+    width: 139px;
+    height: 1px;
+   background-color:  rgba(0, 0, 0, 0.4);
+   margin-left: 26px;
+   margin-top: 12px;
+}
+.or{
+    width: 17px;
+    height: 21px;
+     margin: 0 10px;
+}
+.line2{
+    width: 139px;
+    height: 1px;
+   background-color:  rgba(0, 0, 0, 0.4);
+   margin-right: 26px;
+   margin-top: 12px; 
+}
+.login-facebook{
+    width: 312px;
+    height: 48px;
+    background-color: #1877F2;
+    text-align: center;
+    border: 1px #1877F2 solid;
+    border-radius: 10px;
+    margin-top: 28px;
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+}
+.login-facebook i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    color: white;
+    margin-left: 10px;
+}
+.login-facebook-text{
+    margin-left: 55px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.login-google{
+    width: 312px;
+    height: 48px;
+    background-color: white;
+    text-align: center;
+    border: 1px rgba(0, 0, 0, 0.4) solid;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+}
+.login-google img{
+    height: 26px;
+    width: 26px;
+    margin-left: 10px;
+}
+.login-google-text{
+     
+    margin-left: 55px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    font-weight: 600;
+}
+.login-the-man{
+    width: 312px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    margin-left: 28px;
+}
+.login-the-man-text{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 700;
+    margin-left: 5px;
+    
+}
+.login-the-man img{
+    height: 48px;
+    width: 48px;
+}
